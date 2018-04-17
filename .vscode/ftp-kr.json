@@ -1,0 +1,16 @@
+{
+    "host": "jhje.co.kr",
+    "username": "pi",
+    "password": "pi!@7542",
+    "remotePath": "/home/public_html/local1/",
+    "protocol": "ftp",
+    "port": 0,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}
