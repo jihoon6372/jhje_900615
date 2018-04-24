@@ -1,41 +1,44 @@
+{% load staticfiles %}
+<!DOCTYPE html>
 <html>
-    <head>
-    <title>총알피하기</title>
-    <link rel="stylesheet" type="text/css" href="/static/css/game.css">
-    <style type="text/css">
-    input[type=reset]{
-        margin-top: -2vw;
-    }
-    </style>
-        <meta charset="utf-8">
-        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.4, maximum-scale=1, user-scalable=no">
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" /> -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <title></title>
-    </head>
-    <body><canvas width="1276" height="686" id="canvas1"></canvas>
-    <div class="toggle_outline" style="display: none;">
-        <div class="toggle"></div>
-    </div>
-    <div class="sensitivity" style="display: none;">
-        <div class="sensitivity_tit">조이스틱 감도(<div id="view_sensitivity">25</div>)</div>
-        <input type="range" name="sensitivity" min="0" max="50">
-        <!-- <div class="sensitivity_exp">감도는 게임이 새로 시작할 때 적용됩니다.</div> -->
-    </div>
-    <script type="text/javascript">
-    var joystic_doc = document.getElementsByClassName("toggle_outline")[0];
-    var joystic = {
-        X : 0,
-        Y : 0,
-        Left : joystic_doc.offsetLeft,
-        Top : joystic_doc.offsetTop,
-        Width : joystic_doc.offsetWidth,
-        Height : joystic_doc.offsetHeight,
-        J_class : "toggle",
-        Sensitivity : 0
-    }
-    </script>
-    <script type="text/javascript" src="/static/js/bullet.js"></script>
-    <script type="text/javascript" src="/static/js/joystic.js"></script>
-    </body>
+<head>
+<title>총알피하기</title>
+<link rel="stylesheet" type="text/css" href="{% static '/css/game.css' %}">
+<style type="text/css">
+input[type=reset]{
+  margin-top: -2vw;
+}
+</style>
+  <meta charset="utf-8">
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.4, maximum-scale=1, user-scalable=no">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" /> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <title></title>
+</head>
+<body>
+<div class="toggle_outline">
+  <div class="toggle"></div>
+</div>
+<div class="sensitivity">
+  <div class="sensitivity_tit">조이스틱 감도(<div id="view_sensitivity">25</div>)</div>
+  <input type="range" name="sensitivity" min="0" max="50">
+  <!-- <div class="sensitivity_exp">감도는 게임이 새로 시작할 때 적용됩니다.</div> -->
+</div>
+<script type="text/javascript">
+var joystic_doc = document.getElementsByClassName("toggle_outline")[0];
+var joystic = {
+  X : 0,
+  Y : 0,
+  Left : joystic_doc.offsetLeft,
+  Top : joystic_doc.offsetTop,
+  Width : joystic_doc.offsetWidth,
+  Height : joystic_doc.offsetHeight,
+  J_class : "toggle",
+  Sensitivity : 0
+}
+</script>
+<script type="text/javascript" src="{% static 'js/bullet.js' %}"></script>
+<script type="text/javascript" src="{% static '/js/joystic.js' %}"></script>
+</body>
 </html>
+

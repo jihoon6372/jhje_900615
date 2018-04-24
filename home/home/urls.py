@@ -16,14 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf import settings
-from .views import snow
-from django.views.generic import TemplateView
-
+from .views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('game/snow/', TemplateView.as_view(template_name="snow.html")),
-    path('game/bullet/', TemplateView.as_view(template_name="bullet.html")),
+    path('game/snow/', SnowView.as_view()),
+    path('game/bullet/', BulletView.as_view()),
 ]
 
 
