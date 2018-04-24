@@ -178,13 +178,13 @@ var SnowGame = {
   },
   SetSnowMans : function(t){
     Game.prototype.img.snowman = new Image();
-    Game.prototype.img.snowman.src = "../image/snow.png";
+    Game.prototype.img.snowman.src = "/static/image/snow.png";
     Game.prototype.img.snowball = new Image();
-    Game.prototype.img.snowball.src = "../image/snowball2.png";
+    Game.prototype.img.snowball.src = "/static/image/snowball2.png";
     Game.prototype.img.dead = new Image();
-    Game.prototype.img.dead.src = "../image/dead.png";
+    Game.prototype.img.dead.src = "/static/image/dead.png";
     Game.prototype.img.energybar = new Image();
-    Game.prototype.img.energybar.src = "../image/test.png";
+    Game.prototype.img.energybar.src = "/static/image/test.png";
   },
   mouse_down : function(e){
     console.log("X:"+e.pageX+"| Y:"+e.pageY);

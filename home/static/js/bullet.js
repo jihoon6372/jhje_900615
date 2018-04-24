@@ -93,11 +93,11 @@ var myGameArea = {
     setAeroplane : function(){
       object.spaceShipSprit = new Image();
       object.bomb = new Image();
-      object.bomb.src = "image/bomb.png";
+      object.bomb.src = "/static/image/bomb.png";
       object.spaceShipSprit.onload = function(){
         myGameArea.context.drawImage(object.spaceShipSprit, myGameArea.canvas.width/2-32, myGameArea.canvas.height/2-32);
       }
-      object.spaceShipSprit.src = "image/aeroplane_64.png";
+      object.spaceShipSprit.src = "/static/image/aeroplane_64.png";
     },
     Gamestart : function(){
       if (object.stopped) {
@@ -114,7 +114,7 @@ var myGameArea = {
 
 function bomb(){
   object.bomb = new Image();
-  object.bomb.src = "/image/bomb.png";
+  object.bomb.src = "/static/image/bomb.png";
 
 
   // for (var i = 0; i < 24; i++) {

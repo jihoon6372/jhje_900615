@@ -1,0 +1,257 @@
+{
+  "ftp://jhje.co.kr@pi": {
+    "home": {
+      "public_html": {
+        "local1": {
+          "bin": {},
+          "home": {
+            "db.sqlite3": {
+              "type": "-",
+              "size": 0,
+              "lmtime": 0,
+              "modified": false
+            },
+            "home": {
+              "__init__.py": {
+                "type": "-",
+                "size": 0,
+                "lmtime": 0,
+                "modified": false
+              },
+              "__pycache__": {},
+              "settings.py": {
+                "type": "-",
+                "size": 3677,
+                "lmtime": 1524574419000,
+                "modified": false
+              },
+              "urls.py": {
+                "type": "-",
+                "size": 882,
+                "lmtime": 0,
+                "modified": false
+              },
+              "wsgi.py": {
+                "type": "-",
+                "size": 385,
+                "lmtime": 0,
+                "modified": false
+              },
+              "view.py": {
+                "type": "-",
+                "size": 0,
+                "lmtime": 1524574927000,
+                "modified": false
+              }
+            },
+            "local1_uwsgi.ini": {
+              "type": "-",
+              "size": 314,
+              "lmtime": 0,
+              "modified": false
+            },
+            "manage.py": {
+              "type": "-",
+              "size": 536,
+              "lmtime": 0,
+              "modified": false
+            },
+            "static": {
+              ".DS_Store": {
+                "type": "-",
+                "size": 6148,
+                "lmtime": 1524574708000,
+                "modified": false
+              },
+              "admin": {},
+              "app.js": {
+                "type": "-",
+                "size": 290862,
+                "lmtime": 1500858800000,
+                "modified": false
+              },
+              "bullet.js": {
+                "type": "-",
+                "size": 10188,
+                "lmtime": 1500858800000,
+                "modified": false
+              },
+              "css": {
+                "app.css": {
+                  "type": "-",
+                  "size": 114206,
+                  "lmtime": 1500858798000,
+                  "modified": false
+                },
+                "game.css": {
+                  "type": "-",
+                  "size": 2670,
+                  "lmtime": 1500858798000,
+                  "modified": false
+                },
+                "snow.css": {
+                  "type": "-",
+                  "size": 1193,
+                  "lmtime": 1504257242000,
+                  "modified": false
+                }
+              },
+              "image": {
+                "aeroplane_64.png": {
+                  "type": "-",
+                  "size": 1765,
+                  "lmtime": 1500858798000,
+                  "modified": false
+                },
+                "bomb.png": {
+                  "type": "-",
+                  "size": 9980,
+                  "lmtime": 1500858798000,
+                  "modified": false
+                },
+                "dead.png": {
+                  "type": "-",
+                  "size": 7323,
+                  "lmtime": 1500858798000,
+                  "modified": false
+                },
+                "snow.png": {
+                  "type": "-",
+                  "size": 57192,
+                  "lmtime": 1500858798000,
+                  "modified": false
+                },
+                "snow_test.png": {
+                  "type": "-",
+                  "size": 57192,
+                  "lmtime": 1500858798000,
+                  "modified": false
+                },
+                "snow_test2.png": {
+                  "type": "-",
+                  "size": 15870,
+                  "lmtime": 1500858798000,
+                  "modified": false
+                },
+                "snowball.png": {
+                  "type": "-",
+                  "size": 3702,
+                  "lmtime": 1500858798000,
+                  "modified": false
+                },
+                "snowball2.png": {
+                  "type": "-",
+                  "size": 3331,
+                  "lmtime": 1500858798000,
+                  "modified": false
+                },
+                "test.png": {
+                  "type": "-",
+                  "size": 2917,
+                  "lmtime": 1500858798000,
+                  "modified": false
+                }
+              },
+              "ismobile.js": {
+                "type": "-",
+                "size": 246,
+                "lmtime": 1500858800000,
+                "modified": false
+              },
+              "joystic.js": {
+                "type": "-",
+                "size": 3350,
+                "lmtime": 1500858800000,
+                "modified": false
+              },
+              "js": {
+                "app.js": {
+                  "type": "-",
+                  "size": 290862,
+                  "lmtime": 1500858800000,
+                  "modified": false
+                },
+                "bullet.js": {
+                  "type": "-",
+                  "size": 10188,
+                  "lmtime": 1500858800000,
+                  "modified": false
+                },
+                "ismobile.js": {
+                  "type": "-",
+                  "size": 246,
+                  "lmtime": 1500858800000,
+                  "modified": false
+                },
+                "joystic.js": {
+                  "type": "-",
+                  "size": 3350,
+                  "lmtime": 1500858800000,
+                  "modified": false
+                },
+                "modernizr-2.0.6.js": {
+                  "type": "-",
+                  "size": 43394,
+                  "lmtime": 1500858800000,
+                  "modified": false
+                },
+                "snow.js": {
+                  "type": "-",
+                  "size": 27882,
+                  "lmtime": 1504490818000,
+                  "modified": false
+                },
+                ".DS_Store": {
+                  "type": "-",
+                  "size": 6148,
+                  "lmtime": 1524574690000,
+                  "modified": false
+                }
+              },
+              "modernizr-2.0.6.js": {
+                "type": "-",
+                "size": 43394,
+                "lmtime": 1500858800000,
+                "modified": false
+              },
+              "snow.js": {
+                "type": "-",
+                "size": 27882,
+                "lmtime": 1504490818000,
+                "modified": false
+              },
+              "무제 폴더": {}
+            },
+            "test.py": {
+              "type": "-",
+              "size": 122,
+              "lmtime": 0,
+              "modified": false
+            },
+            ".DS_Store": {
+              "type": "-",
+              "size": 6148,
+              "lmtime": 1524574680000,
+              "modified": false
+            }
+          },
+          "include": {},
+          "lib": {},
+          "pip-selfcheck.json": {
+            "type": "-",
+            "size": 60,
+            "lmtime": 0,
+            "modified": false
+          },
+          ".DS_Store": {
+            "type": "-",
+            "size": 6148,
+            "lmtime": 1524574671000,
+            "modified": false
+          }
+        }
+      }
+    }
+  },
+  "$version": 1
+}
