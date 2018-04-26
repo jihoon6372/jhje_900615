@@ -1,6 +1,6 @@
 var Game = function(){
   this.running = 0,
-  this.Level = 2,
+  this.Level = 3,
   this.background = null,
   this.Snowman = [],
   this.cpu = [],
