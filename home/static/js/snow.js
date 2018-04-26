@@ -187,7 +187,7 @@ var SnowGame = {
     Game.prototype.img.energybar.src = "/static/image/test.png";
   },
   mouse_down : function(e){
-    console.log("X:"+e.pageX+"| Y:"+e.pageY);
+    //console.log("X:"+e.pageX+"| Y:"+e.pageY);
     if (object.Stop) {
       SnowGame.Start();
     }
@@ -533,7 +533,7 @@ var SnowGame = {
         object.target2.b = {X:40, Y:20};
         object.target2.c = {X:60, Y:20};
         object.target = true;
-        console.log('target');
+        //console.log('target');
       }
     }
     
